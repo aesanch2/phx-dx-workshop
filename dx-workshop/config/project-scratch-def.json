@@ -1,0 +1,14 @@
+{
+  "orgName": "dx-workshop",
+  "edition": "Developer",
+  "features": [
+    "API",
+    "AuthorApex",
+    "ForceComPlatform"
+  ],
+  "settings": {
+    "orgPreferenceSettings": {
+      "s1DesktopEnabled": true
+    }
+  }
+}

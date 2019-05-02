@@ -55,3 +55,31 @@ Signup for the following accounts, or use existing Accounts if you have them alr
 
 * Push the sources to the scratch org by running the following from the `dx-workshop` directory
     * `sfdx force:source:push`
+
+## Phase Two - Modularize
+
+This step is a little less straightforward. Identify any opportunities in the converted Salesforce DX project (`dx-workshop`) for modularization.
+
+Use the following trailhead as a guide for how to approach dividing up the components into separate DX Packages:
+* https://trailhead.salesforce.com/content/learn/modules/package-development-readiness/take-stock-of-your-orgs-customizations?trail_id=sfdx_get_started
+
+Once you've identified some candidates for modularization, add any additional packages to the `sfdx-project.json` file. For example:
+```
+{
+  "packageDirectories": [
+    {
+      "path": "app",
+      "default": true
+    },
+    {
+      "path": "accounts"
+    },
+    {
+      "path": "opportunities"
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0"
+}
+```

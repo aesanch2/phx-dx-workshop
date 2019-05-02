@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsUndelete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Denotes whether or not this Handler is enabled for Undelete events</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Denotes whether or not this Handler is enabled for Undelete events</inlineHelpText>
+    <label>Undelete Enabled</label>
+    <type>Checkbox</type>
+</CustomField>
