@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>AccountActivation</members>
+    <members>AccountPriority</members>
+    <members>TriggerEvent</members>
+    <members>TriggerHandler</members>
+  </types>
+  <types>
+    <name>CustomMetadata</name>
+    <members>TriggerHandler.AccountActivation</members>
+    <members>TriggerHandler.AccountPriority</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Account-Account Layout</members>
+    <members>TriggerHandler__mdt-Trigger Handler Layout</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Account.IsActive__c</members>
+    <members>Account.Priority__c</members>
+    <members>TriggerHandler__mdt.IsActive__c</members>
+    <members>TriggerHandler__mdt.IsAfter__c</members>
+    <members>TriggerHandler__mdt.IsBefore__c</members>
+    <members>TriggerHandler__mdt.IsDelete__c</members>
+    <members>TriggerHandler__mdt.IsInsert__c</members>
+    <members>TriggerHandler__mdt.IsUndelete__c</members>
+    <members>TriggerHandler__mdt.IsUpdate__c</members>
+    <members>TriggerHandler__mdt.Priority__c</members>
+    <members>TriggerHandler__mdt.SObject__c</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>TriggerHandler__mdt</members>
+  </types>
+  <types>
+    <name>PermissionSet</name>
+    <members>AccountActivation</members>
+    <members>AccountPriority</members>
+  </types>
+  <types>
+    <name>ApexTrigger</name>
+    <members>AccountTrigger</members>
+    <members>OpportunityTrigger</members>
+  </types>
+  <version>45.0</version>
+</Package>

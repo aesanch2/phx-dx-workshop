@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Defines and controls Trigger Events</description>
+    <label>Trigger Handler</label>
+    <pluralLabel>Trigger Handlers</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether or not this Handler is active</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Denotes whether or not this Handler is active</inlineHelpText>
+        <label>Active?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsAfter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether or not this Handler is enabled for After events</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Denotes whether or not this Handler is enabled for After events</inlineHelpText>
+        <label>After Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsBefore__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether or not this Handler is enabled for Before events</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Denotes whether or not this Handler is enabled for Before events</inlineHelpText>
+        <label>Before Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsDelete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether or not this Handler is enabled for Delete events</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Denotes whether or not this Handler is enabled for Delete events</inlineHelpText>
+        <label>Delete Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsInsert__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether or not this Handler is enabled for Insert events</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Denotes whether or not this Handler is enabled for Insert events</inlineHelpText>
+        <label>Insert Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsUndelete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether or not this Handler is enabled for Undelete events</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Denotes whether or not this Handler is enabled for Undelete events</inlineHelpText>
+        <label>Undelete Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsUpdate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether or not this Handler is enabled for Update events</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Denotes whether or not this Handler is enabled for Update events</inlineHelpText>
+        <label>Update Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <defaultValue>999</defaultValue>
+        <description>Determines in what order this Handler should be processed in relation to other Handlers on this object</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Determines in what order this Handler should be processed in relation to other Handlers on this object</inlineHelpText>
+        <label>Priority</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SObject__c</fullName>
+        <description>The SObject that this handler should run on</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The SObject that this handler should run on</inlineHelpText>
+        <label>SObject</label>
+        <referenceTo>EntityDefinition</referenceTo>
+        <relationshipLabel>Trigger Handlers</relationshipLabel>
+        <relationshipName>TriggerHandlers</relationshipName>
+        <required>true</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
