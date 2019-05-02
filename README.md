@@ -94,3 +94,8 @@ To demonstrate the flexibility that DX provides when working with multiple devel
   * A new field? A new trigger?
 
 Once done, submit a pull request with your changes against the original [repository](https://github.com/aesanch2/phx-dx-workshop/pulls) from your fork!
+
+## Phase Four - Extra Credit
+
+Make this a truly modular project and create unlocked generation packages for it!
+* https://trailhead.salesforce.com/content/learn/projects/quick-start-unlocked-packages?trail_id=sfdx_get_started
