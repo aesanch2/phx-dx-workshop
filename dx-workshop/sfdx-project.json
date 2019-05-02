@@ -3,6 +3,12 @@
     {
       "path": "app",
       "default": true
+    },
+    {
+      "path": "accountactivation"
+    },
+    {
+      "path": "accountpriority"
     }
   ],
   "namespace": "",

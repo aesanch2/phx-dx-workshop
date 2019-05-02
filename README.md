@@ -83,3 +83,14 @@ Once you've identified some candidates for modularization, add any additional pa
   "sourceApiVersion": "45.0"
 }
 ```
+
+## Phase Three - Collaborate
+
+To demonstrate the flexibility that DX provides when working with multiple developers, checkout a new branch and perform one of the following changes:
+
+* Add some unit tests!
+  * `sfdx force:apex:test:run`
+* Add some new functionality!
+  * A new field? A new trigger?
+
+Once done, submit a pull request with your changes against the original [repository](https://github.com/aesanch2/phx-dx-workshop/pulls) from your fork!
